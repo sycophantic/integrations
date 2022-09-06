@@ -40,13 +40,13 @@
                             "key": "event.outcome",
                             "negate": false,
                             "params": {
-                                "query": "FAILURE"
+                                "query": "failure"
                             },
                             "type": "phrase"
                         },
                         "query": {
                             "match_phrase": {
-                                "event.outcome": "FAILURE"
+                                "event.outcome": "failure"
                             }
                         }
                     }
